@@ -60,7 +60,7 @@ class Declarer {
   final _setUpAlls = <dynamic Function()>[];
 
   /// The default timeout for synthetic tests.
-  final _timeout = Timeout(Duration(minutes: 12));
+  final _timeout = Timeout(Duration(minutes: 21));
 
   /// The trace for the first call to [setUpAll].
   ///
